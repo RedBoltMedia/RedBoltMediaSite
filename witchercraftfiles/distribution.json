@@ -424,6 +424,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:gravestone:1.16.5-1.0.7@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 234509,
+            "url": "https://redboltmedia.net/witchercraftfiles/servers/WitcherCraft-1.16.5/forgemods/required/gravestone-1.16.5-1.0.7.jar",
+            "MD5": "f02875f61e6586cea65783b3f438cdfc"
+          }
+        },
+        {
           "id": "mezz.jei:jei:7.7.1.152@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
@@ -431,6 +441,16 @@
             "size": 828677,
             "url": "https://redboltmedia.net/witchercraftfiles/servers/WitcherCraft-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
             "MD5": "fb5fe43b43be01abc6c24eff29791b52"
+          }
+        },
+        {
+          "id": "insane96mcp.longerdays:longerdays:2.0.0@jar",
+          "name": "Longer Days",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10419,
+            "url": "https://redboltmedia.net/witchercraftfiles/servers/WitcherCraft-1.16.5/forgemods/required/LongerDays-2.0.0-mc1.16.4.jar",
+            "MD5": "a0db79219dad834cac4ff2bcb34c78f7"
           }
         },
         {
