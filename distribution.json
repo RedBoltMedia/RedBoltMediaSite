@@ -1,0 +1,683 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "1004793962139234428",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "WitcherCraft-1.16.5",
+      "name": "WitcherCraft (Minecraft 1.16.5)",
+      "description": "WitcherCraft Running Minecraft 1.16.5 (Forge v36.2.30)",
+      "icon": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/WitcherCraft-1.16.5.png",
+      "version": "1.0.0",
+      "address": "s591352.csrv.pl",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "wclogo"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.30",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 212476,
+            "MD5": "e0e5eab6ed675a6e7cf8569f9dcec0aa",
+            "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/forge/1.16.5-36.2.30/forge-1.16.5-36.2.30.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.30",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "eb1df7ec9889d8e2a40d86d6c756e804",
+                "url": "https://redboltmedia.net/repo/versions/1.16.5-forge-36.2.30/1.16.5-forge-36.2.30.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.30:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2756401,
+                "MD5": "5b7008bd814da57a9981cab17bd4d8aa",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/forge/1.16.5-36.2.30/forge-1.16.5-36.2.30-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.30:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4214104,
+                "MD5": "2084ca2a27354bd85735ec3722226464",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/forge/1.16.5-36.2.30/forge-1.16.5-36.2.30-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352644,
+                "MD5": "4d17f8e9c8af28a6a891d0a696331e48",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "https://redboltmedia.net/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "https://redboltmedia.net/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "https://redboltmedia.net/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "https://redboltmedia.net/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "https://redboltmedia.net/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "https://redboltmedia.net/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "https://redboltmedia.net/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://redboltmedia.net/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "https://redboltmedia.net/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "https://redboltmedia.net/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://redboltmedia.net/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://redboltmedia.net/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://redboltmedia.net/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://redboltmedia.net/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://redboltmedia.net/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://redboltmedia.net/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://redboltmedia.net/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://redboltmedia.net/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "https://redboltmedia.net/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "https://redboltmedia.net/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "de.nekeras.borderless:borderlesswindow:1.16.5-1.2.1@jar",
+          "name": "Borderless Window",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48086,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/optionalon/BorderlessWindow-1.16.5-1.2.1.jar",
+            "MD5": "9cc6ee315de1ca4dbc6a3b2a0e329b12"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mrcrayfish:configured:1.5.2@jar",
+          "name": "Configured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136323,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/configured-1.5.2-1.16.5.jar",
+            "MD5": "738d717f81d330742a8f5364f987e94a"
+          }
+        },
+        {
+          "id": "com.creativerealms:conquestrecipes:1.16.5-v1.0.3@jar",
+          "name": "ConquestRecipes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9506444,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/ConquestRecipes-1.16.5-v1.0.3.jar",
+            "MD5": "60b6cd842550635e30f256cb8cc3f263"
+          }
+        },
+        {
+          "id": "com.conquestreforged:conquest:5.0.10@jar",
+          "name": "ConquestReforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 93179562,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/ConquestReforged-mc1.16.5-5.0.10.jar",
+            "MD5": "95332f29bed8a9bf0bae9f326d521891"
+          }
+        },
+        {
+          "id": "net.mcreator.devilmaycryweaponsreborn:devil_may_cry_weapons_reborn:1.1.3@jar",
+          "name": "Devil May Cry Weapons Reborn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2193717,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/dmc%20server.jar",
+            "MD5": "a02643aee97b8b5ea23ef22e02bd8a89"
+          }
+        },
+        {
+          "id": "noobanidus.mods:dwmh:1.16.4-0.4.0.2@jar",
+          "name": "Dude! Where's my Horse?",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 766740,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/dwmh-1.16.4-0.4.0.2.jar",
+            "MD5": "f38b888f7a56c5ca126c5d3d3dd091b5"
+          }
+        },
+        {
+          "id": "net.morimori:gamemenumodoption:1.8@jar",
+          "name": "Game Menu Mod Option",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92540,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/GameMenuModOption-1.16.4-1.8.jar",
+            "MD5": "664a95d0c59c95b47d7c48e5ae187208"
+          }
+        },
+        {
+          "id": "de.maxhenkel:gravestone:1.16.5-1.0.7@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 234509,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/gravestone-1.16.5-1.0.7.jar",
+            "MD5": "f02875f61e6586cea65783b3f438cdfc"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.152@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 828677,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
+            "MD5": "fb5fe43b43be01abc6c24eff29791b52"
+          }
+        },
+        {
+          "id": "insane96mcp.longerdays:longerdays:2.0.0@jar",
+          "name": "Longer Days",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10419,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/LongerDays-2.0.0-mc1.16.4.jar",
+            "MD5": "a0db79219dad834cac4ff2bcb34c78f7"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:1.10.1@jar",
+          "name": "Small Ships Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2400243,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/smallships-1.16.5-1.10.1.jar",
+            "MD5": "d29343cb93fc48215f9a2db7a0495df2"
+          }
+        },
+        {
+          "id": "net.torocraft:torohealth:1.16.4-forge-4@jar",
+          "name": "ToroHealth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96418,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/torohealth-1.16.4-forge-4.jar",
+            "MD5": "2cb4db18b135498a7eee6c1b17926d1e"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:7.6.2@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 375610,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/Waystones_1.16.5-7.6.2.jar",
+            "MD5": "48db63998d30c334b6030b9feae0be8d"
+          }
+        },
+        {
+          "id": "net.mcreator:witchercraft:1.0.1@jar",
+          "name": "WitcherCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5059805,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/WitcherCraft%201.16.5.jar",
+            "MD5": "4e6b1a66cb5c2047b724e2d2a9c792cc"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:21.14.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806007,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/Xaeros_Minimap_21.14.1_Forge_1.16.5.jar",
+            "MD5": "cc31725348f3c4794c9ee72a35b27efd"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.16.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 497253,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/forgemods/required/XaerosWorldMap_1.16.0_Forge_1.16.5.jar",
+            "MD5": "483f83163cb6c02ecce8408437c52b96"
+          }
+        },
+        {
+          "id": "generated.library:OptiFine_1.16.5_HD_U_G8:0.0.0@jar",
+          "name": "OptiFine_1.16.5_HD_U_G8",
+          "type": "Library",
+          "artifact": {
+            "size": 6046996,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/libraries/OptiFine_1.16.5_HD_U_G8.jar",
+            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
+          }
+        },
+        {
+          "id": "No+Enchant+Glint.zip",
+          "name": "No+Enchant+Glint.zip",
+          "type": "File",
+          "artifact": {
+            "size": 19433,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/resourcepacks/No+Enchant+Glint.zip",
+            "MD5": "51f5f236f71d2c5225f80d38a13a2ed4",
+            "path": "resourcepacks/No+Enchant+Glint.zip"
+          }
+        },
+        {
+          "id": "WitcherCraft Soundpack.zip",
+          "name": "WitcherCraft Soundpack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 97122598,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/resourcepacks/WitcherCraft%20Soundpack.zip",
+            "MD5": "e805ce28e56f3ac582659597dd9c4ae0",
+            "path": "resourcepacks/WitcherCraft Soundpack.zip"
+          }
+        },
+        {
+          "id": "WitcherCraft x Conquest.zip",
+          "name": "WitcherCraft x Conquest.zip",
+          "type": "File",
+          "artifact": {
+            "size": 93581299,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/resourcepacks/WitcherCraft%20x%20Conquest.zip",
+            "MD5": "f6e5f5a8f5c7178df3a581683c9deb50",
+            "path": "resourcepacks/WitcherCraft x Conquest.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 5115,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/servers.dat",
+            "MD5": "e9bf0b30d09e2cbca1ff0a67faa41cf7",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/servers.dat_old",
+            "MD5": "0ef4589b8c359e8d5b7dba971452fb4a",
+            "path": "servers.dat_old"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Extreme.zip",
+          "name": "Chocapic13_V9_Extreme.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3134623,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Chocapic13_V9_Extreme.zip",
+            "MD5": "2a5ec76ad7acc47005e32cc1e5da1e41",
+            "path": "shaderpacks/Chocapic13_V9_Extreme.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_High.zip",
+          "name": "Chocapic13_V9_High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3134568,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Chocapic13_V9_High.zip",
+            "MD5": "29c39e1d1e6030b14e3db3f65c38ce05",
+            "path": "shaderpacks/Chocapic13_V9_High.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Low.zip",
+          "name": "Chocapic13_V9_Low.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2421404,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Chocapic13_V9_Low.zip",
+            "MD5": "c370a206d8d2ddfaab218c1561a57ec7",
+            "path": "shaderpacks/Chocapic13_V9_Low.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Medium.zip",
+          "name": "Chocapic13_V9_Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2428092,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Chocapic13_V9_Medium.zip",
+            "MD5": "55e6328b1ca9e1208f8034bc6983f5c3",
+            "path": "shaderpacks/Chocapic13_V9_Medium.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Ultra.zip",
+          "name": "Chocapic13_V9_Ultra.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3134570,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Chocapic13_V9_Ultra.zip",
+            "MD5": "46d8fcd102bdaa4340c37a137135a2bc",
+            "path": "shaderpacks/Chocapic13_V9_Ultra.zip"
+          }
+        },
+        {
+          "id": "SEUS-Renewed-v1.0.1 (2).zip",
+          "name": "SEUS-Renewed-v1.0.1 (2).zip",
+          "type": "File",
+          "artifact": {
+            "size": 7062638,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/SEUS-Renewed-v1.0.1%20(2).zip",
+            "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
+            "path": "shaderpacks/SEUS-Renewed-v1.0.1 (2).zip"
+          }
+        },
+        {
+          "id": "Sildur's+Vibrant+Shaders+v1.31+Extreme.zip",
+          "name": "Sildur's+Vibrant+Shaders+v1.31+Extreme.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142232,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Sildur's+Vibrant+Shaders+v1.31+Extreme.zip",
+            "MD5": "c2aa1605cae46cbb6ce42d00bdbcd0f0",
+            "path": "shaderpacks/Sildur's+Vibrant+Shaders+v1.31+Extreme.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.29 Medium.zip",
+          "name": "Sildurs Vibrant Shaders v1.29 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 140454,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.29%20Medium.zip",
+            "MD5": "abca7705a0cc87c80e0979bd97970004",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.29 Medium.zip"
+          }
+        },
+        {
+          "id": "Sildurs basic shaders v1.05.zip",
+          "name": "Sildurs basic shaders v1.05.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5173,
+            "url": "https://redboltmedia.net/servers/WitcherCraft-1.16.5/files/shaderpacks/Sildurs%20basic%20shaders%20v1.05.zip",
+            "MD5": "86b7a3362ad9e44138cb30df4c6da13a",
+            "path": "shaderpacks/Sildurs basic shaders v1.05.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
